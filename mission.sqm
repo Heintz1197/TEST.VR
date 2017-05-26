@@ -12,10 +12,12 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4558.5742,9.848176,3453.9968};
-		dir[]={-0.70373917,-0.39778417,0.58876085};
-		up[]={-0.30514726,0.91744614,0.25529191};
-		aside[]={0.64170974,5.3178519e-007,0.7670247};
+
+		pos[]={4565.564,24.884611,3436.6606};
+		dir[]={0.20081936,-0.57096958,0.79609072};
+		up[]={0.13966683,0.82094175,0.55366981};
+		aside[]={0.96966702,-7.2526745e-008,-0.24460666};
+
 	};
 };
 binarizationWanted=0;
@@ -87,7 +89,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=4;
+		items=3;
 		class Item0
 		{
 			dataType="Marker";
@@ -102,81 +104,6 @@ class Mission
 			atlOffset=-20.657698;
 		};
 		class Item1
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4537.5562,5.0244379,3452.7427};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						init="this addAction[""Initialize AO"", ""scripts\AO_Main.sqf""];";
-						disableSimulation=1;
-						ignoreByDynSimulGrid=1;
-					};
-					id=2;
-					type="B_RangeMaster_F";
-					atlOffset=0.02299881;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="allowDamage";
-							expression="_this allowdamage _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1;
-			atlOffset=0.02299881;
-		};
-		class Item2
 		{
 			dataType="Group";
 			side="West";
@@ -205,7 +132,7 @@ class Mission
 			};
 			id=5;
 		};
-		class Item3
+		class Item2
 		{
 			dataType="Object";
 			class PositionInfo
