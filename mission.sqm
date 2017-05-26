@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4563.6934,16.628811,3462.4314};
-		dir[]={-0.77556843,-0.63102567,-0.018984854};
-		up[]={-0.63087082,0.77573538,-0.01544322};
-		aside[]={-0.024470989,2.6285306e-007,0.9997282};
+		pos[]={4558.5742,9.848176,3453.9968};
+		dir[]={-0.70373917,-0.39778417,0.58876085};
+		up[]={-0.30514726,0.91744614,0.25529191};
+		aside[]={0.64170974,5.3178519e-007,0.7670247};
 	};
 };
 binarizationWanted=0;
@@ -216,7 +216,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="this addAction[""Take AR"", 'player execVM ""Loadouts\AR.sqf""']; this addAction[""Take Rifleman"", 'player execVM ""Loadouts\Rifelman.sqf""']; this addAction[""Take AAR"", 'player execVM ""Loadouts\ARA.sqf""']; this addAction[""Take FTL"", 'player execVM ""Loadouts\FTL.sqf""']; this addAction[""Take SL"", 'player execVM ""Loadouts\SL.sqf""'];";
+				init="this addAction[""Take AR"", 'player execVM ""Loadouts\AR.sqf""']; this addAction[""Take Rifleman"", 'player execVM ""Loadouts\Rifleman.sqf""']; this addAction[""Take AAR"", 'player execVM ""Loadouts\AAR.sqf""']; this addAction[""Take FTL"", 'player execVM ""Loadouts\FTL.sqf""']; this addAction[""Take SL"", 'player execVM ""Loadouts\SL.sqf""'];";
 				name="AmmoStart";
 			};
 			id=7;
